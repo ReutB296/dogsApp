@@ -6,8 +6,8 @@
   "scripts": {
     "install-client": "cd client/dogs-app && npm i",
     "build": "cd client/dogs-app && npm run build",
-    "start": "cd client/dogs-app && npm start",
-    "start:prod": "cd server && npm run start:prod"
+    "start": "cd client/dogs-app && npm start"
+   
   },
   "author": "",
   "license": "ISC"
