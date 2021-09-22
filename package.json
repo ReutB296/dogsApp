@@ -6,7 +6,6 @@
   "scripts": {
     "install-client": "cd client/dogs-app && npm i",
     "install-server": "cd server && npm i",
-    "postinstall": "concurrently 'npm:install-client' 'npm:install-server'",
     "build": "cd client/dogs-app && npm run build",
     "start-server": "cd server && npm start",
     "start-client": "cd client/dogs-app && npm start",
