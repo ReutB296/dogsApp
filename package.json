@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-client": "cd client/dogs-app && npm i",
-    "install-server": "cd server && npm i",
-    "heroku-postbuild": "cd client/dogs-app && npm run build",
+    
+    "heroku-postbuild": "cd client/dogs-app && npm install && npm run build",
     "start-server": "cd server && npm start",
     "start-client": "cd client/dogs-app && npm start",
     "start": "concurrently 'npm:start-server' 'npm:start-client'",
